@@ -22,10 +22,10 @@ import numpy as np
 
 #extract the data from post request
 #st.image('D:/download/Data/logo.png', channels="BGR")
-filename = "D:/download/Data/logo.png"
-img = cv2.imread(filename, 1)
-image = np.array([img])
-st.image(image, channels="BGR")
+#filename = "D:/download/Data/logo.png"
+#img = cv2.imread(filename, 1)
+#image = np.array([img])
+#st.image(image, channels="BGR")
 new_title = '<p style="font-family:sans-serif; color:White; font-size: 50px;">Store Selection Model</p>'
 #st.markdown(new_title, unsafe_allow_html=True)
 st.markdown(new_title,unsafe_allow_html=True)
@@ -666,10 +666,10 @@ if (result):
         strr=str(Final_Score)+'/'+str(Total_score)
         titlee2 = f'<p style="font-family:sans-serif; color:#7CFC00; font-size: 50px;">{strr}</span></p>'
         st.markdown(titlee2,unsafe_allow_html=True)
-        filename = "D:/download/Data/upp.png"
-        img = cv2.imread(filename, 1)
-        image = np.array([img])
-        st.image(image, channels="BGR",width=150)
+        #filename = "D:/download/Data/upp.png"
+        #img = cv2.imread(filename, 1)
+        #image = np.array([img])
+        #st.image(image, channels="BGR",width=150)
         #st.header(strr)
         #st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
@@ -681,10 +681,10 @@ if (result):
         strr=str(Final_Score)+'/'+str(Total_score)
         titlee2 = f'<p style="font-family:sans-serif; color:#87CEFA; font-size: 50px;">{strr}</span></p>'
         st.markdown(titlee2,unsafe_allow_html=True)
-        filename = "D:/download/Data/upp.png"
-        img = cv2.imread(filename, 1)
-        image = np.array([img])
-        st.image(image, channels="BGR",width=150)
+        #filename = "D:/download/Data/upp.png"
+        #img = cv2.imread(filename, 1)
+        #image = np.array([img])
+        #st.image(image, channels="BGR",width=150)
         
     elif 200<=Final_Score<=299:
         titlee = '<p style="font-family:sans-serif; color:#FFA500; font-size: 50px;">Total Score</p>'
@@ -703,9 +703,9 @@ if (result):
         strr=str(Final_Score)+'/'+str(Total_score)
         titlee2 = f'<p style="font-family:sans-serif; color:#FF0000; font-size: 50px;">{strr}</span></p>'
         st.markdown(titlee2,unsafe_allow_html=True)
-        filename = "D:/download/Data/down.png"
-        img = cv2.imread(filename, 1)
-        image = np.array([img])
-        st.image(image, channels="BGR",width=150)
+        #filename = "D:/download/Data/down.png"
+        #img = cv2.imread(filename, 1)
+        #image = np.array([img])
+        #st.image(image, channels="BGR",width=150)
      
     
