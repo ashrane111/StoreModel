@@ -3,8 +3,8 @@
 #from flask import Flask, render_template, request
 import pandas as pd
 import streamlit as st
-import cv2
-import numpy as np
+#import cv2
+#import numpy as np
 
 #declare the app
 #app = Flask(__name__)
