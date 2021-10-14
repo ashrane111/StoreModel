@@ -57,7 +57,7 @@ Income_level = st.selectbox('Income Level', ('HIG','Higher MIG','MIG','Lower MIG
 #st.write('You selected', Income_level)
 st.write('\n')
 st.header('Warehouse Proximity')
-Warehouse_proximity = st.number_input('Warehouse Proximity(in km)',value=0)
+Warehouse_proximity = st.number_input('Warehouse Proximity(in km)',value='')
 st.write('\n')
 st.header('Construction')
 Shape = st.selectbox('Shape of the Store', ('Square shape with big facade','Rectangle Box with big facade','Rectangle with less facade','Zig zag box','Other'))
