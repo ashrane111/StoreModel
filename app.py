@@ -31,7 +31,7 @@ new_title = '<p style="font-family:sans-serif; color:White; font-size: 50px;">St
 st.markdown(new_title,unsafe_allow_html=True)
 st.header('Basic Details')
 store_name=st.text_input('Site/Store Name')
-rent=st.number_input('Rent',format="%i")
+rent=st.number_input('Rent',value=1)
 monthly_sales=st.number_input('Monthly Sales')
 report_date=st.text_input('Report Date')
 analyser_name=st.text_input('Analyser Name')
