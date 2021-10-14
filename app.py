@@ -31,7 +31,7 @@ new_title = '<p style="font-family:sans-serif; color:White; font-size: 50px;">St
 st.markdown(new_title,unsafe_allow_html=True)
 st.header('Basic Details')
 store_name=st.text_input('Site/Store Name')
-rent=st.number_input('Rent')
+rent=st.number_input('Rent',format="%i")
 monthly_sales=st.number_input('Monthly Sales')
 report_date=st.text_input('Report Date')
 analyser_name=st.text_input('Analyser Name')
@@ -471,7 +471,7 @@ if (result):
             Supermarket_distance_score=3
         elif 201<=Supermarket_distance<=300:
             Supermarket_distance_score=2
-        elif Supermarket_distance<200:
+        elif Supermarket_distance<201:
             Supermarket_distance_score=1
               
                 
@@ -485,7 +485,7 @@ if (result):
             Discounted_pharmacy_score=3
         elif 201<=Discounted_pharmacy<=300:
             Discounted_pharmacy_score=2
-        elif Discounted_pharmacy<200:
+        elif Discounted_pharmacy<201:
             Discounted_pharmacy_score=1
         ############################################################################################################        
     elif Typee=='Suburban and Rural':
@@ -563,7 +563,7 @@ if (result):
             Discounted_pharmacy_score=4
         elif 301<=Discounted_pharmacy<=400:
             Discounted_pharmacy_score=3
-        elif 201<=Discounted_pharmacy<=300401<=Discounted_pharmacy<=500:
+        elif 401<=Discounted_pharmacy<=500:
             Discounted_pharmacy_score=2
         elif Discounted_pharmacy>500:
             Discounted_pharmacy_score=1
