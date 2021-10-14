@@ -395,15 +395,15 @@ if (result):
 
         
 
-    if Doctor_clinic>10:
+    if Doctor_clinic>25:
         Doctor_clinic_score=5
-    elif 7<=Doctor_clinic<=10:
+    elif 21<=Doctor_clinic<=25:
         Doctor_clinic_score=4
-    elif 5<=Doctor_clinic<=6:
+    elif 16<=Doctor_clinic<=20:
         Doctor_clinic_score=3
-    elif 3<=Doctor_clinic<=4:
+    elif 11<=Doctor_clinic<=15:
         Doctor_clinic_score=2
-    elif Doctor_clinic<3:
+    elif Doctor_clinic<11:
         Doctor_clinic_score=1
       
 
