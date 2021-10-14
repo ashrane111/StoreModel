@@ -75,7 +75,7 @@ Facade_blockage = st.selectbox('Facade Blockage', ('No Blockage','Partial Blocka
 st.write('\n')
 st.header('Business')
 Payback_period = st.number_input('Payback Period',value=0)
-if rent/monthly_sales==0:
+if rent==0 and monthly_sales==0:
     abcd=0
 else:
     abcd=rent/monthly_sales
