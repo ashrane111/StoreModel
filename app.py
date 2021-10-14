@@ -75,7 +75,11 @@ Facade_blockage = st.selectbox('Facade Blockage', ('No Blockage','Partial Blocka
 st.write('\n')
 st.header('Business')
 Payback_period = st.number_input('Payback Period',value=0)
-Rent_to_sales = st.number_input('Rent % to Sales',value=rent/monthly_sales)
+if rent/monthly_sales==0:
+    abcd=0
+else:
+    abcd=rent/monthly_sales
+Rent_to_sales = st.number_input('Rent % to Sales',value=abcd)
 Break_even = st.number_input('Break Even Period',value=0)
 st.write('\n')
 st.header('Catchment Analysis')
