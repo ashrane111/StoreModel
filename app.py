@@ -25,7 +25,7 @@ st.image('logo.png', channels="BGR")
 filename = "logo.png"
 img = cv2.imread(filename, 1)
 image = np.array([img])
-st.image(image, channels="BGR")
+#st.image(image, channels="BGR")
 new_title = '<p style="font-family:sans-serif; color:White; font-size: 50px;">Store Selection Model</p>'
 #st.markdown(new_title, unsafe_allow_html=True)
 st.markdown(new_title,unsafe_allow_html=True)
