@@ -3,8 +3,8 @@
 #from flask import Flask, render_template, request
 import pandas as pd
 import streamlit as st
-#import cv2
-#import numpy as np
+import cv2
+import numpy as np
 
 #declare the app
 #app = Flask(__name__)
@@ -21,11 +21,11 @@ import streamlit as st
 
 
 #extract the data from post request
-#st.image('D:/download/Data/logo.png', channels="BGR")
-#filename = "D:/download/Data/logo.png"
-#img = cv2.imread(filename, 1)
-#image = np.array([img])
-#st.image(image, channels="BGR")
+st.image('https://github.com/ashrane111/StoreModel/blob/main/logo.png', channels="BGR")
+filename = "https://github.com/ashrane111/StoreModel/blob/main/logo.png"
+img = cv2.imread(filename, 1)
+image = np.array([img])
+st.image(image, channels="BGR")
 new_title = '<p style="font-family:sans-serif; color:White; font-size: 50px;">Store Selection Model</p>'
 #st.markdown(new_title, unsafe_allow_html=True)
 st.markdown(new_title,unsafe_allow_html=True)
