@@ -21,8 +21,8 @@ import numpy as np
 
 
 #extract the data from post request
-st.image('https://github.com/ashrane111/StoreModel/blob/main/logo.png', channels="BGR")
-filename = "https://github.com/ashrane111/StoreModel/blob/main/logo.png"
+st.image('logo.png', channels="BGR")
+filename = "logo.png"
 img = cv2.imread(filename, 1)
 image = np.array([img])
 st.image(image, channels="BGR")
