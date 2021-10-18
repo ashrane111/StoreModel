@@ -673,7 +673,7 @@ if (result):
         #filename = "D:/download/Data/upp.png"
         #img = cv2.imread(filename, 1)
         #image = np.array([img])
-        #st.image(image, channels="BGR",width=150)
+        st.image('upp.png', channels="BGR",width=150)
         #st.header(strr)
         #st.markdown(f'<p style="background-color:#0066cc;color:#33ff33;font-size:24px;border-radius:2%;">{url}</p>', unsafe_allow_html=True)
         
@@ -688,7 +688,7 @@ if (result):
         #filename = "D:/download/Data/upp.png"
         #img = cv2.imread(filename, 1)
         #image = np.array([img])
-        #st.image(image, channels="BGR",width=150)
+        st.image('upp.png', channels="BGR",width=150)
         
     elif 200<=Final_Score<=299:
         titlee = '<p style="font-family:sans-serif; color:#FFA500; font-size: 50px;">Total Score</p>'
@@ -710,6 +710,6 @@ if (result):
         #filename = "D:/download/Data/down.png"
         #img = cv2.imread(filename, 1)
         #image = np.array([img])
-        #st.image(image, channels="BGR",width=150)
+        st.image('down.png', channels="BGR",width=150)
      
     
